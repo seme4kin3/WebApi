@@ -2,9 +2,9 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApp.Models;
+using WebApi.Models;
 
-namespace WebApp.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("api/game")]
