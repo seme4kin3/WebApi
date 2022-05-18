@@ -7,7 +7,7 @@ using WebApi.Models;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/hero")]
+    [Route("[controller]")]
     public class HeroController : ControllerBase
     {
         

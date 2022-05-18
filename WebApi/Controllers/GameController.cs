@@ -7,7 +7,7 @@ using WebApi.Models;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("api/game")]
+    [Route("[controller]")]
     public class GameController: ControllerBase
 
     {
